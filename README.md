@@ -1,4 +1,4 @@
-# securitytrails-python
+# securitytrails-python3
 Provides a Python 3.7 wrapper to the SecurityTrails.com API.  
 Originally forked from the [2.7 wrapper](https://github.com/secops4thewin/securitytrails-python) by `secops4thewin`
   
