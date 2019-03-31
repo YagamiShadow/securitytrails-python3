@@ -1,10 +1,13 @@
 # securitytrails-python
-Provides a Python 3.7 wrapper to the SecurityTrails.com API.
+Provides a Python 3.7 wrapper to the SecurityTrails.com API.  
 Originally forked from the [2.7 wrapper](https://github.com/secops4thewin/securitytrails-python) by `secops4thewin`
-
+  
+**Note:** Not all functions are documented in this README. They'll be updated shortly to include everything.
+  
 
 ## SecurityTrails
 
+  
 **Function**
 
 Initial class instantiation
