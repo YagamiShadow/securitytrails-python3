@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 
 
-## [1.0.0] - 2019-03-31
+## [v1.0.0-beta] - 2019-03-31
 ### Added
 - All HTTP requests to be within try/except's
 - Syntax highlighted JSON output if using `pretty_print`
@@ -15,4 +15,4 @@ All notable changes to this project will be documented in this file.
 - Changed URL building code to avoid code duplication and unneeded variable creation
 
 
-[1.0.0]: https://github.com/deadbits/securitytrails-python3/releases/tag/v1.0.0
+[v1.0.0-beta]: https://github.com/deadbits/securitytrails-python3/releases/tag/v1.0.0-beta
