@@ -21,6 +21,9 @@ Provides a Python 3.7 wrapper to the SecurityTrails.com API, forked from the [Py
 
 Not every function is documneted below (they will be soon), but all functions in the SDK are documented with full docstrings, so using something like IPython's `?` or `??` on any given function will provide in-depth details on the API function.
 
+***
+
+
 **Function**
 
 Initial class instantiation
