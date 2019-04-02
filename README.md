@@ -1,13 +1,26 @@
 # securitytrails-python3
-Provides a Python 3.7 wrapper to the SecurityTrails.com API.  
-Originally forked from the [2.7 wrapper](https://github.com/secops4thewin/securitytrails-python) by `secops4thewin`
-  
-**Note:** Not all functions are documented in this README. They'll be updated shortly to include everything.
-  
+Provides a Python 3.7 wrapper to the SecurityTrails.com API, forked from the [Python 2.7 SDK by secops4thewin](https://github.com/secops4thewin/securitytrails-python)
+
+- ![Version](https://img.shields.io/badge/Version-v1.0.0--beta-orange.svg)
+- ![Release](https://img.shields.io/badge/Release-Beta-blue.svg)
 
 ## SecurityTrails
 
-  
+### Available API Features 
+
+- `test_connect`:              Test connectivity to API
+- `get_domain`:                Get various information about domains
+- `get_subdomain`:             Get subdomains for a given domain
+- `get_tags`:                  Get tags for a given domain
+- `get_whois`:                 Get current WHOIS data for a given domain with the stats merged
+- `get_history_dns`:           Get specific historical DNS information for a given domain
+- `get_history_whois`:         Get specific historical WHOIS information for agiven domain.
+- `ip_explorer`:               Get the neighbors of a given IP address range
+- `domain_searcher`:           Filter and search specific records. Using simple filter composition, any type of data fetching is possible. The post object uses a very simple dsl where the json key represents the type to filter on and the value, allowing you to create any number of queries depending on your need. The filters are combined using `AND` and work in combination.
+- `domain_searcher_stats`:     Get stats for a given domain search. Contains useful information like tld count, hostname count, domain count, etc.
+
+Not every function is documneted below (they will be soon), but all functions in the SDK are documented with full docstrings, so using something like IPython's `?` or `??` on any given function will provide in-depth details on the API function.
+
 **Function**
 
 Initial class instantiation
@@ -15,10 +28,10 @@ Initial class instantiation
 | Parameter | Details | Required |
 | --- | --- | --- |
 | api_key | API Key authorising connection | Required
-| prettyPrint | Converts output to a print friendly version of JSON. Defaults to False providing a dictionary output | Not Required (Default Set) |
-| base_url | API location. Defaults to `https://api.securitytrails.com/v1/` | Not Required (Default Set) |
+| pretty_print | Converts JSON to syntax-highlight pretty-printed output. Without this set, a dictionary is returned | Not Required (Default Set) |
+| base_url | API URL. Defaults to `https://api.securitytrails.com/v1/` | Not Required (Default Set) |
 
-### get_domain
+#### get_domain
 
 **Function**
 
@@ -39,7 +52,7 @@ s.get_history_whois("netflix.com")
 
 ***
 
-### get_subdomain
+#### get_subdomain
 
 **Function**
 
@@ -60,7 +73,7 @@ s.get_subdomain("netflix.com")
 
 ***
 
-### get_tags
+#### get_tags
 
 **Function**
 
@@ -81,7 +94,7 @@ s.get_tags("netflix.com")
 
 ***
 
-### get_whois
+#### get_whois
 
 **Function**
 
@@ -101,7 +114,7 @@ s.get_whois("netflix.com")
 
 ***
 
-### ip_explorer
+#### ip_explorer
 
 **Function**
 
@@ -123,7 +136,7 @@ s.ip_explorer("netflix.com")
 
 ***
 
-### test_connect
+#### test_connect
 **Function**
 Test ping to Security Trails API
 
