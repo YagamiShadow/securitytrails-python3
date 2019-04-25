@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [v1.2.0-beta] - 2019-04-25
+### Added
+- Added url verification if user changes base_url
+- Standardization of logging across all functions
+
+### Changed
+- Changed "session" to be a private variable
+- Changed "parse_output" to be a private variable
 
 ## [v1.0.0-beta] - 2019-03-31
 ### Added
