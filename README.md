@@ -1,7 +1,7 @@
 # securitytrails-python3
 Provides a Python 3.7 wrapper to the SecurityTrails.com API, forked from the [Python 2.7 SDK by secops4thewin](https://github.com/secops4thewin/securitytrails-python)
 
-- ![Version](https://img.shields.io/badge/Version-v1.0.1--beta-orange.svg)
+- ![Version](https://img.shields.io/badge/Version-v1.2.0--beta-orange.svg)
 - ![Release](https://img.shields.io/badge/Release-Beta-blue.svg)
 
 ## SecurityTrails
