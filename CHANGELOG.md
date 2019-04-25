@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [v1.2.0-beta] - 2019-04-25
+## [v1.2.0-beta](https://github.com/deadbits/securitytrails-python3/releases/tag/v1.2.0-beta) - 2019-04-25
 ### Added
 - Added url verification if user changes base_url
 - Standardization of logging across all functions
